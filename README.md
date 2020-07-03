@@ -1,2 +1,2 @@
-# blog
-https://plainchant.gitbook.io
+# Welcome PCT‘s Blog
+
