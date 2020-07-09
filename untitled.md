@@ -1,8 +1,6 @@
 # 为什么 TCP 协议有 TIME\_WAIT 状态
 
-> 为什么这么设计（Why’s THE Design）是一系列关于计算机领域中程序设计决策的文章，我们在这个系列的每一篇文章中都会提出一个具体的问题并从不同的角度讨论这种设计的优缺点、对具体实现造成的影响。
-
-在这个系列前面的文章中，我们已经多次讨论 TCP 协议的设计原理，其中包括 TCP 协议的 [三次握手](https://draveness.me/whys-the-design-tcp-three-way-handshake)、[流量控制和重传机制](https://draveness.me/whys-the-design-tcp-performance)、[最大数据段](https://draveness.me/whys-the-design-tcp-segment-ip-packet) 以及 [粘包](https://draveness.me/whys-the-design-tcp-message-frame) 等问题。本文将继续分析 TCP 协议的实现细节，今天要分析的问题是为什么 TCP 协议需要 `TIME_WAIT` 状态以及该状态的作用究竟是什么。
+TCP 协议的设计原理，其中包括 TCP 协议的 [三次握手](https://draveness.me/whys-the-design-tcp-three-way-handshake)、[流量控制和重传机制](https://draveness.me/whys-the-design-tcp-performance)、[最大数据段](https://draveness.me/whys-the-design-tcp-segment-ip-packet) 以及 [粘包](https://draveness.me/whys-the-design-tcp-message-frame) 等问题。本文将继续分析 TCP 协议的实现细节，今天要分析的问题是为什么 TCP 协议需要 `TIME_WAIT` 状态以及该状态的作用究竟是什么。
 
 TCP 协议中包含 11 种不同的状态，TCP 连接会根据发送或者接收到的消息转换状态，如下图所示的状态机展示了所有可能的转换，其中不仅包含了正常情况下的状态转换过程，还包含了异常状态下的状态转换：
 
