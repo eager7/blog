@@ -76,8 +76,6 @@ func my(n int) int {
 
 ![](../.gitbook/assets/image%20%2814%29.png)
 
-> 这是 leetcode 的 62 号题：[https://leetcode-cn.com/problems/unique-paths/](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/unique-paths/)
-
 还是老样子，三个步骤来解决。
 
 ### 步骤一、定义数组元素的含义
