@@ -16,6 +16,7 @@
 
 ---
 
+* [SystemV消息队列使用范例](systemv-xiao-xi-dui-lie-shi-yong-fan-li.md)
 * [Git常用命令](git-chang-yong-ming-ling.md)
 * [ubuntu搭建全局代理](ubuntu-da-jian-quan-ju-dai-li.md)
 * [linux安装和配置](linux-an-zhuang-he-pei-zhi.md)

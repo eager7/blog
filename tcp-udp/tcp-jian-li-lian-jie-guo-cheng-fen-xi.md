@@ -70,7 +70,7 @@ tcp       18      0 localhost:7878          localhost:39709         ESTABLISHED
 
 今天重读《Unix网络编程》找到下面的话：  
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%288%29.png)
 
 这是一段关于listen函数的解释，也就是说listen后，客户端就可以连接到服务器了，只是这时候连接的客户端都放到了一个队列中，当调用accept时从队列中取数据，如果队列为空，就阻塞。 所以客户端和服务端的三路握手是内核的TCP/IP协议驱动自己完成的，listen和accept都没有做这个工作。
 

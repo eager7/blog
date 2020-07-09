@@ -6,7 +6,7 @@
 
 select的图示：  
 
-![](../.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 每次调用select时，都会将描述集合fd从用户态拷贝到内核态，并为其注册回调，然后调用poll方法遍历这些fd，看看是否有描述符就绪，如果就绪了就给这个fd\_set赋值，用户根据这个fd\_set判断是哪个文件fd发生了变化，如果fd比较大，这部分开销就会变大，因为select每次都会操作所有的fd，select最大支持1024个描述符。
 
