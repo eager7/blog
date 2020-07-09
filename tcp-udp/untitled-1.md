@@ -2,6 +2,8 @@
 
 ﻿socket通信机制浅析-前言
 
+代码获取：[https://github.com/eager7/socket\_demo](https://github.com/eager7/socket_demo)
+
 平常用Socket也就是那几种使用方式，没有梳理过，今天梳理一下这方面的知识。
 
 Socket通信按协议分成TCP和UDP，按域可分成INET和UNIX。
