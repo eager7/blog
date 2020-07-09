@@ -1,4 +1,4 @@
-# 01. RasperryPi3 Ros系统安装\(Debian\)
+# RasperryPi3 Ros系统安装\(Debian\)
 
 ﻿01. RasperryPi3 Ros系统安装\(Debian\)
 

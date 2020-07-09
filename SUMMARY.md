@@ -43,7 +43,7 @@
 
 ## 嵌入式
 
-* [01. RasperryPi3 Ros系统安装\(Debian\)](qian-ru-shi/untitled-1.md)
+* [RasperryPi3 Ros系统安装\(Debian\)](qian-ru-shi/untitled-1.md)
 * [CRC校验算法](qian-ru-shi/crc-xiao-yan-suan-fa.md)
 * [一种可靠串口协议](qian-ru-shi/untitled.md)
 
