@@ -56,4 +56,5 @@
 * [Wasm工具安装使用](golang-wasm/wasm-gong-ju-an-zhuang-shi-yong.md)
 * [go版本wasm解析器分析](golang-wasm/go-ban-ben-wasm-jie-xi-qi-fen-xi.md)
 * [ONT实现API的流程](golang-wasm/ont-shi-xian-api-de-liu-cheng.md)
+* [Wagon实现一个log函数](golang-wasm/wagon-shi-xian-yi-ge-log-han-shu.md)
 
