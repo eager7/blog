@@ -17,6 +17,7 @@
 ---
 
 * [Git常用命令](git-chang-yong-ming-ling.md)
+* [ubuntu搭建全局代理](ubuntu-da-jian-quan-ju-dai-li.md)
 * [linux安装和配置](linux-an-zhuang-he-pei-zhi.md)
 * [linux补丁的创建和应用](linux-bu-ding-de-chuang-jian-he-ying-yong.md)
 * [误删Linux内核后修复系统](wu-shan-linux-nei-he-hou-xiu-fu-xi-tong.md)
