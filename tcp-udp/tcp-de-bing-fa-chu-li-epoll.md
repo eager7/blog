@@ -1,6 +1,10 @@
 # TCP的并发处理epoll
 
-上节介绍了Socket的select并发机制，正如文中所说，select在描述符比较多时性能不够好，因为每次都要去操作所有的fd，Linux上提供了另一个高性能的并发机制，即epoll，epoll是怎么去避免select的问题的呢？ epoll有三个函数，epoll\_create，epoll\_ctl，epoll\_wait。 epoll\_create会将需要监控的fd放到集合中，不需要像select那样每次都拷贝，epoll\_ctl会为fd设置一个就绪表，然后epoll\_wait就去检测这个就绪表即可，不需要检测所有的fd，如果就绪表为空，表示没有事件，而select则需要遍历所有fd后才能知道没有事件，所以epoll的效率方面比select高。
+上节介绍了Socket的select并发机制，正如文中所说，select在描述符比较多时性能不够好，因为每次都要去操作所有的fd，Linux上提供了另一个高性能的并发机制，即epoll，epoll是怎么去避免select的问题的呢？ 
+
+epoll有三个函数，epoll\_create，epoll\_ctl，epoll\_wait。 
+
+epoll\_create会将需要监控的fd放到集合中，不需要像select那样每次都拷贝，epoll\_ctl会为fd设置一个就绪表，然后epoll\_wait就去检测这个就绪表即可，不需要检测所有的fd，如果就绪表为空，表示没有事件，而select则需要遍历所有fd后才能知道没有事件，所以epoll的效率方面比select高。
 
 epoll的使用方法和select类似，如果熟悉select那么使用epoll也不成问题，唯一需要注意的一点是EpollEvent.events这个参数，它表示你要监控添加fd的哪些事件以及监听方式，
 
