@@ -63,6 +63,7 @@
 
 ## 区块链
 
+* [CoinEx交易类型收集](qu-kuai-lian/coinex-jiao-yi-lei-xing-shou-ji.md)
 * [CoinEx 链 Gas 费指南](qu-kuai-lian/coinex-lian-gas-fei-zhi-nan.md)
 * [助记词到地址](qu-kuai-lian/untitled.md)
 
