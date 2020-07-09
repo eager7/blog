@@ -59,4 +59,5 @@
 * [Wagon实现一个log函数](golang-wasm/wagon-shi-xian-yi-ge-log-han-shu.md)
 * [Wagon实现log函数的第二种方法](golang-wasm/wagon-shi-xian-log-han-shu-de-di-er-zhong-fang-fa.md)
 * [解析wasm二进制文件](golang-wasm/jie-xi-wasm-er-jin-zhi-wen-jian.md)
+* [wagon外部参数和内部参数的统一](golang-wasm/wagon-wai-bu-can-shu-he-nei-bu-can-shu-de-tong-yi.md)
 
