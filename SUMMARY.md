@@ -16,5 +16,6 @@
 ---
 
 * [linux安装和配置](linux-an-zhuang-he-pei-zhi.md)
+* [linux补丁的创建和应用](linux-bu-ding-de-chuang-jian-he-ying-yong.md)
 * [为什么 TCP 协议有 TIME\_WAIT 状态](untitled.md)
 
