@@ -2,9 +2,9 @@
 
 \[TOC\]\#\# 助记词到地址![](file:///private/var/folders/yr/dk8nn_m51w901z1b3g22yhhw0000gn/T/WizNote/e0ecdf7d-4e2c-4265-ba2f-6f1a46d872e1/index_files/63455360.png)![](file:///private/var/folders/yr/dk8nn_m51w901z1b3g22yhhw0000gn/T/WizNote/e0ecdf7d-4e2c-4265-ba2f-6f1a46d872e1/index_files/63475514.png)
 
-![](../.gitbook/assets/image%20%2817%29.png)
+![](../.gitbook/assets/image%20%2818%29.png)
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 步骤为熵--&gt;熵+校验和--&gt;拆分--&gt;对照助记词本生成助记词--&gt;助记词+盐--&gt;2048次哈希生成512比特种子。
 
@@ -12,7 +12,7 @@
   
 
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 
 

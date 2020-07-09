@@ -64,7 +64,7 @@ func my(n int) int {
 
 ### 案例二：二维数组的 DP
 
-我做了几十道 DP 的算法题，可以说，80% 的题，都是要用二维数组的，所以下面的题主要以二维数组为主，当然有人可能会说，要用一维还是二维，我怎么知道？这个问题不大，接着往下看。
+80% 的题，都是要用二维数组的，所以下面的题主要以二维数组为主，当然有人可能会说，要用一维还是二维，我怎么知道？这个问题不大，接着往下看。
 
 ### 问题描述
 
@@ -72,7 +72,9 @@ func my(n int) int {
 
 机器人每次只能向下或者向右移动一步。机器人试图达到网格的右下角（在下图中标记为“Finish”）。
 
-问总共有多少条不同的路径？![](data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'%20width='986'%20height='492'></svg>)
+问总共有多少条不同的路径？
+
+![](../.gitbook/assets/image%20%2814%29.png)
 
 > 这是 leetcode 的 62 号题：[https://leetcode-cn.com/problems/unique-paths/](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/unique-paths/)
 
