@@ -107,34 +107,33 @@ dp\[0…m-1\] \[0\] = 1; // 相当于最左面一列，机器人只能一直往�
 三个步骤都写出来了，直接看代码
 
 ```text
-public static int uniquePaths(int m, int n) {
-    if (m <= 0 || n <= 0) {
-        return 0;
-    }
+func my(m int, n int) int {
+	if m == 1 || n == 1 {
+		return 1
+	}
+	var bp = make([][]int, m*n)
+	for i := 0; i < m; i++ {
+		bp[i] = make([]int, n)
+	}
+	for i := 0; i < m; i++ {
+		bp[i][0] = 1
 
-    int[][] dp = new int[m][n]; // 
-    // 初始化
-    for(int i = 0; i < m; i++){
-      dp[i][0] = 1;
-    }
-    for(int i = 0; i < n; i++){
-      dp[0][i] = 1;
-    }
-        // 推导出 dp[m-1][n-1]
-    for (int i = 1; i < m; i++) {
-        for (int j = 1; j < n; j++) {
-            dp[i][j] = dp[i-1][j] + dp[i][j-1];
-        }
-    }
-    return dp[m-1][n-1];
+	}
+	for j := 1; j < n; j++ {
+		bp[0][j] = 1
+	}
+	for i := 1; i < m; i++ {
+		for j := 1; j < n; j++ {
+			bp[i][j] = bp[i-1][j] + bp[i][j-1]
+		}
+	}
+	return bp[m-1][n-1]
 }
 ```
 
 > O\(n\*m\) 的空间复杂度可以优化成 O\(min\(n, m\)\) 的空间复杂度的，不过这里先不讲
 
 ### 案例三、二维数组 DP
-
-写到这里，有点累了，，但还是得写下去，所以看的小伙伴，你们可得继续看呀。下面这道题也不难，比上面的难一丢丢，不过也是非常类似
 
 ### 问题描述
 
@@ -153,10 +152,6 @@ arr = [
 输出: 7
 解释: 因为路径 1→3→1→1→1 的总和最小。
 ```
-
-和上面的差不多，不过是算最优路径和，这是 leetcode 的第64题：[https://leetcode-cn.com/problems/minimum-path-sum/](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/problems/minimum-path-sum/)
-
-> 还是老样子，可能有些人都看烦了，哈哈，但我还是要按照步骤来写，让那些不大懂的加深理解。有人可能觉得，这些题太简单了吧，别慌，小白先入门，这些属于 medium 级别的，后面在给几道 hard 级别的。
 
 ### 步骤一、定义数组元素的含义
 
