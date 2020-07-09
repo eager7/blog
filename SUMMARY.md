@@ -54,4 +54,5 @@
 ## golang wasm
 
 * [Wasm工具安装使用](golang-wasm/wasm-gong-ju-an-zhuang-shi-yong.md)
+* [go版本wasm解析器分析](golang-wasm/go-ban-ben-wasm-jie-xi-qi-fen-xi.md)
 
