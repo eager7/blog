@@ -25,7 +25,7 @@
 * [查看磁盘的UUID并挂载](cha-kan-ci-pan-de-uuid-bing-gua-zai.md)
 * [为什么 TCP 协议有 TIME\_WAIT 状态](wei-shen-me-tcp-xie-yi-you-timewait-zhuang-tai.md)
 
-## TCP/UDP
+## socket通信机制浅析 <a id="tcp-udp"></a>
 
 * [TCP建立连接过程分析](tcp-udp/tcp-jian-li-lian-jie-guo-cheng-fen-xi.md)
 * [线程的分发](tcp-udp/xian-cheng-de-fen-fa.md)
