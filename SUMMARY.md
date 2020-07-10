@@ -61,6 +61,7 @@
 
 ## 区块链
 
+* [SLP代币协议](qu-kuai-lian/slp-dai-bi-xie-yi.md)
 * [Geth命令详解](qu-kuai-lian/geth-ming-ling-xiang-jie.md)
 * [Tendermint 的区块构成](qu-kuai-lian/tendermint-de-qu-kuai-gou-cheng.md)
 * [区块链共识进化史](qu-kuai-lian/qu-kuai-lian-gong-shi-jin-hua-shi.md)
