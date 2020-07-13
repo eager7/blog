@@ -4,6 +4,7 @@
 
 ## Golang
 
+* [Channel实现](golang/channel-shi-xian.md)
 * [Golang调度](golang/golang-dispatch.md)
 * [go-defer](golang/go-defer.md)
 * [protobuf简介](golang/protobuf-jian-jie.md)
