@@ -4,6 +4,7 @@
 
 ## Golang
 
+* [go逃逸分析](golang/go-tao-yi-fen-xi.md)
 * [Channel实现](golang/channel-shi-xian.md)
 * [Golang调度](golang/golang-dispatch.md)
 * [go-defer](golang/go-defer.md)
