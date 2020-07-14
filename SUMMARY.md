@@ -48,7 +48,7 @@
 
 ---
 
-* [代码库](https://github.com/eager7)
+* [同性交友网站](https://github.com/eager7)
 
 ## golang wasm
 
@@ -78,4 +78,8 @@
 ## HTTP
 
 * [URL 在浏览器被被输入到页面展现的过程中发生了什么](http/url-zai-liu-lan-qi-bei-bei-shu-ru-dao-ye-mian-zhan-xian-de-guo-cheng-zhong-fa-sheng-le-shen-me.md)
+
+## MySQL
+
+* [MySQL基础概念](mysql/mysql-ji-chu-gai-nian.md)
 
