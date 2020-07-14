@@ -102,7 +102,7 @@ dp\[0\] \[0….n-1\] = 1; // 相当于最上面一行，机器人只能一直往
 
 dp\[0…m-1\] \[0\] = 1; // 相当于最左面一列，机器人只能一直往下走
 
-### 撸代码
+### 代码
 
 三个步骤都写出来了，直接看代码
 
@@ -248,7 +248,7 @@ rose -> ros (删除 'e')
 
 **从规模小的，通过一些操作，推导出规模大的。对于这道题，我们可以对 word1 进行三种操作**
 
-插入一个字符 删除一个字符 替换一个字符
+`插入一个字符` `删除一个字符` `替换一个字符`
 
 由于我们是要让操作的次数最小，所以我们要寻找最佳操作。那么有如下关系式：
 
@@ -275,41 +275,44 @@ rose -> ros (删除 'e')
 ### 代码如下
 
 ```text
-public int minDistance(String word1, String word2) {
-    int n1 = word1.length();
-    int n2 = word2.length();
-    int[][] dp = new int[n1 + 1][n2 + 1];
-    // dp[0][0...n2]的初始值
-    for (int j = 1; j <= n2; j++) 
-        dp[0][j] = dp[0][j - 1] + 1;
-    // dp[0...n1][0] 的初始值
-    for (int i = 1; i <= n1; i++) dp[i][0] = dp[i - 1][0] + 1;
-        // 通过公式推出 dp[n1][n2]
-    for (int i = 1; i <= n1; i++) {
-        for (int j = 1; j <= n2; j++) {
-            // 如果 word1[i] 与 word2[j] 相等。第 i 个字符对应下标是 i-1
-            if (word1.charAt(i - 1) == word2.charAt(j - 1)){
-                p[i][j] = dp[i - 1][j - 1];
-            }else {
-               dp[i][j] = Math.min(Math.min(dp[i - 1][j - 1], dp[i][j - 1]), dp[i - 1][j]) + 1;
-            }         
-        }
-    }
-    return dp[n1][n2];  
+func my(word1 string, word2 string) int {
+	len1, len2 := len(word1), len(word2)
+	if len1 == 0 || len2 == 0 {
+		return len1 + len2
+	}
+
+	//当字符串word1的长度为len1，字符串word2的长度为len2时，将word1转化为word2所使用的最少操作次数为dp[len1][len2]
+	dp := make([][]int, len1+1) //初始化第一维数组，从1开始
+	for i := range dp {
+		dp[i] = make([]int, len2+1) //初始化第二维数组，从1开始
+	}
+	dp[0][1], dp[1][0], dp[1][1] = 1, 1, 1 //预初始化基本值，因为下面循环在len为1时不会进入
+	for i := 1; i < len1+1; i++ {
+		dp[i][0] = dp[i-1][0] + 1 //每次字符串长度加一，就相当于添加一个字符，因此需要加一步
+	}
+	for j := 1; j < len2+1; j++ {
+		dp[0][j] = dp[0][j-1] + 1
+	}
+
+	for i := 1; i <= len1; i++ {
+		for j := 1; j <= len2; j++ {
+			if word1[i-1] == word2[j-1] {
+				dp[i][j] = dp[i-1][j-1] //字符相等，不需要进行操作
+			} else {
+				dp[i][j] = int(math.Min(float64(dp[i-1][j-1]), math.Min(float64(dp[i-1][j]), float64(dp[i][j-1])))) + 1 //多出一步运算
+			}
+		}
+	}
+	return dp[len1][len2]
 }
+
 ```
 
-最后说下，如果你要练习，可以去 leetcode，选择动态规划专题，然后连续刷几十道，保证你以后再也不怕动态规划了。当然，遇到很难的，咱还是得挂。
+最后说下，如果你要练习，可以去 leetcode，选择动态规划专题，然后连续刷几十道，保证你以后再也不怕动态规划了。
 
 Leetcode 动态规划直达：[https://leetcode-cn.com/tag/dynamic-programming/](https://link.zhihu.com/?target=https%3A//leetcode-cn.com/tag/dynamic-programming/)
 
-### 三、如何优化？
-
-前两天写一篇长达 8000 子的关于**动态规划**的文章[告别动态规划，连刷40道动规算法题，我总结了动规的套路](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/pg-IJ8rA1duIzt5hW1Cycw)
-
-这篇文章更多讲解我平时做题的套路，不过由于篇幅过长，举了 4 个案例之后，没有讲解优化，今天这篇文章就来讲解下，对动态规划的优化如何下手，并且以前几天那篇文章的题作为例子直接讲优化，如果没看过的建议看一下（不看也行，我会直接给出题目以及没有优化前的代码）：[告别动态规划，连刷40道动规算法题，我总结了动规的套路](https://link.zhihu.com/?target=https%3A//mp.weixin.qq.com/s/pg-IJ8rA1duIzt5hW1Cycw)
-
-### 四、优化核心：画图！画图！画图
+### 三、优化核心：画图！画图！画图
 
 没错，80% 的动态规划题都可以画图，其中 80% 的题都可以通过画图一下子知道怎么优化，当然，DP 也有一些很难的题，想优化可没那么容易，不过，今天我要讲的，是属于不怎么难，且最常见，面试笔试最经常考的难度的题。
 
