@@ -102,7 +102,7 @@ sRet, err, share := c.single.Do(LOCK+key, func() (i interface{}, err error) {
       ** 会命中上面锁定机制，走缓存拿数据，如果此时没有数据，就又会落到DB，将数据设置的比缓存时间长，可以让锁定请求拿到旧数据，不至于全部落到DB
       ** 同时随机设置过期时间值，防止同一时刻大量key失效引起的缓存雪崩问题
        */
-      if err := c.cRedis.Set(key, string(data), time.Hour*(5+time.Duration(rand.Int31n(24)))).Err(); err != nil { 
+      if err := c.cRedis.Set(key, hex.EncodeToString(data), time.Hour*(5+time.Duration(rand.Int31n(24)))).Err(); err != nil { 
          log.Warn("The cache interface failed err：", key, err)
          return resp, nil
       }
