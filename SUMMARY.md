@@ -49,18 +49,16 @@
 
 * [交友网站](https://github.com/eager7)
 
-## golang wasm
-
-* [Wasm工具安装使用](golang-wasm/wasm-gong-ju-an-zhuang-shi-yong.md)
-* [go版本wasm解析器分析](golang-wasm/go-ban-ben-wasm-jie-xi-qi-fen-xi.md)
-* [ONT实现API的流程](golang-wasm/ont-shi-xian-api-de-liu-cheng.md)
-* [Wagon实现一个log函数](golang-wasm/wagon-shi-xian-yi-ge-log-han-shu.md)
-* [Wagon实现log函数的第二种方法](golang-wasm/wagon-shi-xian-log-han-shu-de-di-er-zhong-fang-fa.md)
-* [解析wasm二进制文件](golang-wasm/jie-xi-wasm-er-jin-zhi-wen-jian.md)
-* [wagon外部参数和内部参数的统一](golang-wasm/wagon-wai-bu-can-shu-he-nei-bu-can-shu-de-tong-yi.md)
-
 ## 区块链
 
+* [Wasm虚拟机](qu-kuai-lian/wasm-xu-ni-ji/README.md)
+  * [wagon外部参数和内部参数的统一](qu-kuai-lian/wasm-xu-ni-ji/wagon-wai-bu-can-shu-he-nei-bu-can-shu-de-tong-yi.md)
+  * [Wagon实现log函数的第二种方法](qu-kuai-lian/wasm-xu-ni-ji/wagon-shi-xian-log-han-shu-de-di-er-zhong-fang-fa.md)
+  * [Wagon实现一个log函数](qu-kuai-lian/wasm-xu-ni-ji/wagon-shi-xian-yi-ge-log-han-shu.md)
+  * [go版本wasm解析器分析](qu-kuai-lian/wasm-xu-ni-ji/go-ban-ben-wasm-jie-xi-qi-fen-xi.md)
+  * [解析wasm二进制文件](qu-kuai-lian/wasm-xu-ni-ji/jie-xi-wasm-er-jin-zhi-wen-jian.md)
+  * [ONT实现API的流程](qu-kuai-lian/wasm-xu-ni-ji/ont-shi-xian-api-de-liu-cheng.md)
+  * [Wasm工具安装使用](qu-kuai-lian/wasm-xu-ni-ji/wasm-gong-ju-an-zhuang-shi-yong.md)
 * [BCH](qu-kuai-lian/bch/README.md)
   * [SLP代币协议](qu-kuai-lian/bch/slp-dai-bi-xie-yi.md)
 * [Cosmos](qu-kuai-lian/cosmos/README.md)
