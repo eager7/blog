@@ -82,11 +82,6 @@
 
 * [数据密集型应用系统设计读书笔记](mysql/shu-ju-mi-ji-xing-ying-yong-xi-tong-she-ji-du-shu-bi-ji.md)
 
-## Redis
-
-* [Redis缓存实现](redis/redis-huan-cun-shi-xian.md)
-* [Redis基本概念](redis/redis-ji-ben-gai-nian.md)
-
 ## 运维后台
 
 * [Docker学习笔记](yun-wei-hou-tai/docker-xue-xi-bi-ji.md)
@@ -94,4 +89,10 @@
 ## 数据编码与演化
 
 * [protobuf简介](shu-ju-bian-ma-yu-yan-hua/protobuf-jian-jie.md)
+
+## 数据型应用系统设计
+
+* [Redis](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/README.md)
+  * [Redis缓存实现](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/redis-huan-cun-shi-xian.md)
+  * [Redis基本概念](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/redis-ji-ben-gai-nian.md)
 
