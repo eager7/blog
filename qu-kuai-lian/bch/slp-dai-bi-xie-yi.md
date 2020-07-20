@@ -33,7 +33,7 @@ SLP将交易中的OP\_RETURN和标准交易输出结合起来，实现token的�
  一些协议使用特殊UTXO来实现发币协议，我们可以称之为染色币，这些染色币有自己的地址格式，并且可以通过UTXO的特性防止双花，但是如果UTXO被使用到不能识别这些染色币的钱包里，就白白浪费了这个UTXO。  
  Omni协议则抛弃了UTXO模型，通过元数据分析构建了一套账户模型，BCH上的USDT就是通过Omni实现的。  
  下面是几种协议的特性：  
- ![](../.gitbook/assets/68836473.png)  
+ ![](../../.gitbook/assets/68836473.png)  
  
 
 ### 设计理念和挑战 <a id="wiz-toc-6-6475533"></a>
@@ -167,7 +167,7 @@ token\_type表示SLP子协议：
 
 **交易输出**
 
-![](../.gitbook/assets/39271345.png)
+![](../../.gitbook/assets/39271345.png)
 
 #### 挖矿交易 <a id="wiz-toc-23-1141483337"></a>
 
@@ -182,7 +182,7 @@ token\_type表示SLP子协议：
 
 **交易输出**
 
-![](../.gitbook/assets/39794309.png)
+![](../../.gitbook/assets/39794309.png)
 
 #### 发送交易 <a id="wiz-toc-26-78578317"></a>
 
@@ -194,7 +194,7 @@ token\_type表示SLP子协议：
 
 **交易输出**
 
-![](../.gitbook/assets/41797281.png)
+![](../../.gitbook/assets/41797281.png)
 
 #### 校验和承诺交易 <a id="wiz-toc-29-696136643"></a>
 
@@ -213,7 +213,7 @@ token\_type表示SLP子协议：
 
 **交易输出**
 
-![](../.gitbook/assets/46729969.png)
+![](../../.gitbook/assets/46729969.png)
 
 ## 代币地址格式 <a id="wiz-toc-32-61865795"></a>
 

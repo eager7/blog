@@ -45,7 +45,7 @@
   所以POS仍旧是一个缺乏足够实践检验的机制。但是从理论上来看，Ethereum的casper，ALGORAND和Ouroboros是几个比较成熟的POS算法。
 
 * 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 ## DPOS（Delegated Proof-of-Stake），抵押授权证明
 
@@ -116,7 +116,7 @@
 
 #### 流程图
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 ### 容错能力
 
