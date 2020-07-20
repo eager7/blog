@@ -48,7 +48,7 @@
 
 ---
 
-* [同性交友网站](https://github.com/eager7)
+* [交友网站](https://github.com/eager7)
 
 ## golang wasm
 
