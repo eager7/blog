@@ -81,7 +81,7 @@
 
 ## MySQL
 
-* [MySQL基础概念](mysql/mysql-ji-chu-gai-nian.md)
+* [数据密集型应用系统设计读书笔记](mysql/shu-ju-mi-ji-xing-ying-yong-xi-tong-she-ji-du-shu-bi-ji.md)
 
 ## Redis
 
