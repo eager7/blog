@@ -68,7 +68,8 @@
 * [Cosmos简介和环境搭建](qu-kuai-lian/cosmos-jian-jie-he-huan-jing-da-jian.md)
 * [CoinEx交易类型收集](qu-kuai-lian/coinex-jiao-yi-lei-xing-shou-ji.md)
 * [CoinEx 链 Gas 费指南](qu-kuai-lian/coinex-lian-gas-fei-zhi-nan.md)
-* [助记词到地址](qu-kuai-lian/untitled.md)
+* [BTC](qu-kuai-lian/btc/README.md)
+  * [助记词到地址](qu-kuai-lian/btc/untitled.md)
 
 ## 算法
 
