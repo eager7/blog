@@ -26,15 +26,15 @@ int msgget(key_t key, int oflag);
 
 单独设置oflag为IPC\_EXCL没有意义   
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2810%29.png)
 
-![](.gitbook/assets/image%20%287%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 
 
 oflag的读写权限规则如下： 
 
-![](.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%285%29.png)
 
 在使用msgget打开一个消息队列后，使用msgsend来发送消息：
 

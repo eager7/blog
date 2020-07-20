@@ -15,38 +15,32 @@
 
 ---
 
-* [SystemV消息队列使用范例](systemv-xiao-xi-dui-lie-shi-yong-fan-li.md)
-* [Git常用命令](git-chang-yong-ming-ling.md)
-* [ubuntu搭建全局代理](ubuntu-da-jian-quan-ju-dai-li.md)
-* [linux安装和配置](linux-an-zhuang-he-pei-zhi.md)
-* [linux补丁的创建和应用](linux-bu-ding-de-chuang-jian-he-ying-yong.md)
-* [误删Linux内核后修复系统](wu-shan-linux-nei-he-hou-xiu-fu-xi-tong.md)
-* [Linux内核开发示例](linux-nei-he-kai-fa-shi-li.md)
-* [查看磁盘的UUID并挂载](cha-kan-ci-pan-de-uuid-bing-gua-zai.md)
-
-## socket通信机制浅析 <a id="tcp-udp"></a>
-
-* [TCP建立连接过程分析](tcp-udp/tcp-jian-li-lian-jie-guo-cheng-fen-xi.md)
-* [线程的分发](tcp-udp/xian-cheng-de-fen-fa.md)
-* [TCP的并发处理epoll](tcp-udp/tcp-de-bing-fa-chu-li-epoll.md)
-* [TCP的并发处理select](tcp-udp/tcp-de-bing-fa-chu-li-select.md)
-* [非阻塞TCP示例](tcp-udp/fei-zu-sai-tcp-shi-li.md)
-* [阻塞TCP示例](tcp-udp/zu-sai-tcp-shi-li.md)
-* [UDP组播](tcp-udp/udp-zu-bo.md)
-* [UDP广播](tcp-udp/udp-guang-bo.md)
-* [非阻塞UDP示例\(fcntl方式\)](tcp-udp/fei-zu-sai-udp-shi-li-fcntl-fang-shi.md)
-* [非阻塞UDP示例](tcp-udp/fei-zu-sai-udp-shi-li.md)
-* [socket通信机制浅析-前言](tcp-udp/untitled-1.md)
-* [局域网发现协议](tcp-udp/untitled.md)
-
-## 嵌入式
-
-* [RasperryPi3 Ros系统安装\(Debian\)](qian-ru-shi/untitled-1.md)
-* [CRC校验算法](qian-ru-shi/crc-xiao-yan-suan-fa.md)
-* [一种可靠串口协议](qian-ru-shi/untitled.md)
-
----
-
+* [Linux开发](linux-kai-fa/README.md)
+  * [查看磁盘的UUID并挂载](linux-kai-fa/cha-kan-ci-pan-de-uuid-bing-gua-zai.md)
+  * [Linux内核开发示例](linux-kai-fa/linux-nei-he-kai-fa-shi-li.md)
+  * [误删Linux内核后修复系统](linux-kai-fa/wu-shan-linux-nei-he-hou-xiu-fu-xi-tong.md)
+  * [linux补丁的创建和应用](linux-kai-fa/linux-bu-ding-de-chuang-jian-he-ying-yong.md)
+  * [Git常用命令](linux-kai-fa/git-chang-yong-ming-ling.md)
+  * [SystemV消息队列使用范例](linux-kai-fa/systemv-xiao-xi-dui-lie-shi-yong-fan-li.md)
+  * [ubuntu搭建全局代理](linux-kai-fa/ubuntu-da-jian-quan-ju-dai-li.md)
+  * [linux安装和配置](linux-kai-fa/linux-an-zhuang-he-pei-zhi.md)
+* [嵌入式](qian-ru-shi-1/README.md)
+  * [一种可靠串口协议](qian-ru-shi-1/untitled.md)
+  * [CRC校验算法](qian-ru-shi-1/crc-xiao-yan-suan-fa.md)
+  * [RasperryPi3 Ros系统安装\(Debian\)](qian-ru-shi-1/untitled-1.md)
+* [套接字编程](tao-jie-zi-bian-cheng/README.md)
+  * [TCP建立连接过程分析](tao-jie-zi-bian-cheng/tcp-jian-li-lian-jie-guo-cheng-fen-xi.md)
+  * [线程的分发](tao-jie-zi-bian-cheng/xian-cheng-de-fen-fa.md)
+  * [TCP的并发处理epoll](tao-jie-zi-bian-cheng/tcp-de-bing-fa-chu-li-epoll.md)
+  * [TCP的并发处理select](tao-jie-zi-bian-cheng/tcp-de-bing-fa-chu-li-select.md)
+  * [非阻塞TCP示例](tao-jie-zi-bian-cheng/fei-zu-sai-tcp-shi-li.md)
+  * [阻塞TCP示例](tao-jie-zi-bian-cheng/zu-sai-tcp-shi-li.md)
+  * [UDP组播](tao-jie-zi-bian-cheng/udp-zu-bo.md)
+  * [UDP广播](tao-jie-zi-bian-cheng/udp-guang-bo.md)
+  * [非阻塞UDP示例\(fcntl方式\)](tao-jie-zi-bian-cheng/fei-zu-sai-udp-shi-li-fcntl-fang-shi.md)
+  * [非阻塞UDP示例](tao-jie-zi-bian-cheng/fei-zu-sai-udp-shi-li.md)
+  * [局域网发现协议](tao-jie-zi-bian-cheng/untitled.md)
+  * [socket通信机制浅析-前言](tao-jie-zi-bian-cheng/untitled-1.md)
 * [交友网站](https://github.com/eager7)
 
 ## 区块链
@@ -79,8 +73,6 @@
 ## HTTP
 
 * [URL 在浏览器被被输入到页面展现的过程中发生了什么](http/url-zai-liu-lan-qi-bei-bei-shu-ru-dao-ye-mian-zhan-xian-de-guo-cheng-zhong-fa-sheng-le-shen-me.md)
-
-## MySQL
 
 ## 运维后台
 
