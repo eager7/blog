@@ -4,12 +4,13 @@
 
 ## Golang
 
-* [go逃逸分析](golang/go-tao-yi-fen-xi.md)
-* [Channel实现](golang/channel-shi-xian.md)
-* [Golang调度](golang/golang-dispatch.md)
-* [go-defer](golang/go-defer.md)
-* [golang数字最大值](golang/golang-shu-zi-zui-da-zhi.md)
-* [Go 语言 select 的实现原理](golang/go-select.md)
+* [golang基础](golang/golang-ji-chu/README.md)
+  * [Go 语言 select 的实现原理](golang/golang-ji-chu/go-select.md)
+  * [golang数字最大值](golang/golang-ji-chu/golang-shu-zi-zui-da-zhi.md)
+  * [go-defer](golang/golang-ji-chu/go-defer.md)
+  * [Channel实现](golang/golang-ji-chu/channel-shi-xian.md)
+  * [go逃逸分析](golang/golang-ji-chu/go-tao-yi-fen-xi.md)
+  * [Golang调度](golang/golang-ji-chu/golang-dispatch.md)
 
 ## Linux
 
