@@ -85,6 +85,7 @@
 * [数据编码与演化](shu-ju-xing-ying-yong-xi-tong-she-ji/shu-ju-bian-ma-yu-yan-hua/README.md)
   * [protobuf简介](shu-ju-xing-ying-yong-xi-tong-she-ji/shu-ju-bian-ma-yu-yan-hua/protobuf-jian-jie.md)
 * [MySQL](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/README.md)
+  * [mysql安装和数据目录变更](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/mysql-an-zhuang-he-shu-ju-mu-lu-bian-geng.md)
   * [深入理解事务](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/shen-ru-li-jie-shi-wu.md)
 * [Redis](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/README.md)
   * [Redis缓存实现](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/redis-huan-cun-shi-xian.md)
