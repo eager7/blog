@@ -87,6 +87,7 @@
 * [MySQL](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/README.md)
   * [mysql安装和数据目录变更](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/mysql-an-zhuang-he-shu-ju-mu-lu-bian-geng.md)
   * [深入理解事务](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/shen-ru-li-jie-shi-wu.md)
+  * [MySQL事务问题验证](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/mysql-shi-wu-wen-ti-yan-zheng.md)
 * [Redis](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/README.md)
   * [Redis缓存实现](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/redis-huan-cun-shi-xian.md)
   * [Redis基本概念](shu-ju-xing-ying-yong-xi-tong-she-ji/redis/redis-ji-ben-gai-nian.md)
