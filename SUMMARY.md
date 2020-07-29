@@ -84,6 +84,7 @@
 
 * [数据密集型应用系统设计读书笔记](shu-ju-xing-ying-yong-xi-tong-she-ji/shu-ju-mi-ji-xing-ying-yong-xi-tong-she-ji-du-shu-bi-ji.md)
 * [数据编码与演化](shu-ju-xing-ying-yong-xi-tong-she-ji/shu-ju-bian-ma-yu-yan-hua/README.md)
+  * [Kafka配置](shu-ju-xing-ying-yong-xi-tong-she-ji/shu-ju-bian-ma-yu-yan-hua/kafka-pei-zhi.md)
   * [protobuf简介](shu-ju-xing-ying-yong-xi-tong-she-ji/shu-ju-bian-ma-yu-yan-hua/protobuf-jian-jie.md)
 * [MySQL](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/README.md)
   * [mysql安装和数据目录变更](shu-ju-xing-ying-yong-xi-tong-she-ji/mysql/mysql-an-zhuang-he-shu-ju-mu-lu-bian-geng.md)
